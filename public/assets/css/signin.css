@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-coklat {
+  color: #fff;
+  background-color: #996407;
+  border-color: #996407; }
+  .btn-coklat:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000; }
+  .btn-coklat:focus, .btn-danger.focus {
+    color: #fff;
+    background-color: #996407;
+    border-color: #996407;
+    box-shadow: 0 0 0 0.2rem rgba(250, 98, 153, 0.5); }
+  .btn-coklat.disabled, .btn-coklat:disabled {
+    color: #fff;
+    background-color: #ab7d2d;
+    border-color: #ab7d2d; }
+  .btn-coklat:not(:disabled):not(.disabled):active, .btn-coklat:not(:disabled):not(.disabled).active, .show > .btn-coklat.dropdown-toggle {
+    color: #fff;
+    background-color: #996407;
+    border-color: #996407; }
+    .btn-coklat:not(:disabled):not(.disabled):active:focus, .btn-coklat :not(:disabled):not(.disabled).active:focus, .show > .btn-coklat.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(250, 98, 153, 0.5); }
